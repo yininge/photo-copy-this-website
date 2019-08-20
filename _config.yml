@@ -2,7 +2,7 @@
 page_title: PhotoCopyThis # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id: 123 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id: 1476474207 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 url: # site url
 privacy_policy_link: /privacy_policy.html
