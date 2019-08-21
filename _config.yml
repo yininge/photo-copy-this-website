@@ -33,16 +33,16 @@ youtube_username:
 
 # Feature List
 features:
-  - title: Copy and Share text from an Image
-    description: Copy and Share text from an image by taking a photo or choosing photo from your album
+  - title: Copy and share text from an image
+    description: Copy and share text from an image by taking a photo or choosing a photo from your album
     fontawesome_icon_name: copy
 
   - title: Automatic language detection
     description: Support 60 languages and detect languages automatically
     fontawesome_icon_name: language
 
-  - title: Integrate with Siri Shortcuts
-    description: Quickly launch the app with Siri Shortcuts
+  - title: Integrate with Siri shortcuts
+    description: Quickly launch the app with Siri shortcuts
     fontawesome_icon_name: fighter-jet
 
 # Theme Settings
