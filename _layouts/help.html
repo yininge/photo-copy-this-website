@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  {% include head.html %}
+
+  <body>
+    <div class="imageWrapper">
+      <div class="headerBackground">
+        <div class="privacyContainer">
+          {% include header.html %}
+          <div class="privacyBody">
+            <h3>Siri Shortcuts</h3>
+            <br />
+            <p>
+              You can add shortcuts to quickly copy, share, view and use
+              text from an image. You can add it <a class="helpLink external" href="#add-from-app">from PhotoCopyThis app</a> or 
+              <a class="helpLink" target="_blank" href="https://support.apple.com/guide/shortcuts/welcome/ios">Shortcuts app.</a>
+            </p>
+            <br/>
+            <p>
+              In the shortcuts app, 
+              you can use PhotoCopyThis shortcuts to automate your task with <a class="helpLink external" href="#add-copythis">"Copy This"</a> 
+              and <a class="helpLink external" href="#add-copylatest">"Copy latest text"</a> actions. 
+              To learn more about shortcuts, please check out <a class="helpLink" target="_blank" href="https://support.apple.com/guide/shortcuts/welcome/ios">Shortcuts User Guide</a> from Apple's support document.
+            </p>
+            <hr />
+            <p>
+              <h3 id="add-from-app" class="helpHeader">Add shortcuts from PhotoCopyThis</h3>
+              <br />
+              <ul class="helpList">
+                <li>
+                  Tap the settings icon&nbsp;<img
+                    style="width:50px;height:50px" align="middle"
+                    src="assets/gear.png"
+                  />
+                </li>
+                <li>
+                  Select the action you want to add to your shortcuts
+                </li>
+                <li style="list-style: none;"><img
+                  src="assets/settings.png"
+                /></li>
+              </ul>
+            </p>
+            <hr />
+            <p>
+              <h3 id="add-copythis" class="helpHeader">Use "Copy This" Shortcuts with other actions</h3>
+              <br />
+              <ul class="helpList">
+                <li>
+                  Go to Shortcuts app
+                </li>
+                <li>
+                  Create Shortcut
+                </li>
+                <li>
+                  Add "Copy This" Action
+                </li>
+                <li>
+                  Tap "Show More", Enable "Continue in shortcuts app"
+                </li>
+                <li>
+                  Add "Copy latest text" Action
+                </li>
+                <li>
+                  Add your action. For example, add "Search Web"
+                </li>
+                <li style="list-style: none;"><img
+                  src="assets/copythis.png"
+                /></li>
+              </ul>
+            </p>
+            <hr />
+            <p>
+              <h3 id="add-from-app" class="helpHeader">Add shortcuts from PhotoCopyThis</h3>
+              <br />
+              <ul class="helpList">
+                <li>
+                  Tap the settings icon&nbsp;<img
+                    style="width:50px;height:50px" align="middle"
+                    src="assets/gear.png"
+                  />
+                </li>
+                <li>
+                  Select the action you want to add to your shortcuts
+                </li>
+                <li style="list-style: none;"><img
+                  src="assets/settings.png"
+                /></li>
+              </ul>
+            </p>
+            <hr />
+            <p>
+              <h3 id="add-copylatest" class="helpHeader">Use "Copy latest text" Shortcuts with other actions</h3>
+              <br />
+              <ul class="helpList">
+                <li>
+                  Go to Shortcuts app
+                </li>
+                <li>
+                  Create Shortcut
+                </li>
+                <li>
+                  Add "Copy latest text" Action
+                </li>
+                <li>
+                  Add your action. For example, add "Call"
+                </li>
+                <li style="list-style: none;"><img
+                  src="assets/call.png"
+                /></li>
+              </ul>
+            </p>
+          </div>
+          {% include footer.html %} {% include appstoreimages.html %}
+        </div>
+      </div>
+    </div>
+    <script>
+      $(".helpLink.external").click(function(e) {
+          e.preventDefault();
+          var section = $(this).attr("href");
+          $("html, body").animate({
+              scrollTop: $(section).offset().top
+          });
+      });
+    </script>
+  </body>
+</html>

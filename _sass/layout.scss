@@ -52,6 +52,12 @@
   margin-top: 50px;
 }
 
+.privacyBody > hr {
+  color: $footer-text-color;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .privacyBody > h3 {
   color: $title-color;
 }
@@ -487,4 +493,21 @@ footer {
 
 .hidden {
   display: none;
+}
+
+// Help
+.helpHeader {
+  font-size: 1.8rem;
+}
+
+.helpLink {
+  color: darkgray !important;
+}
+
+.helpList {
+  font-size: 1.7rem;
+}
+
+.helpList li {
+  margin: 1rem;
 }
